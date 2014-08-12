@@ -1,4 +1,3 @@
-PhoneTest
+手机测试页面
 =========
-
-TestPhoneMobile
+仅仅用来写手机效果
