@@ -1,4 +1,6 @@
+var params = {a:"初始化"};
 $(function(){
+	console.log(params.a);
 	$("body").swipeRight(function(){
 		addLeft();
 //		$("#user-info").css("left", 0);
@@ -12,11 +14,12 @@ $(function(){
 	});
 	
 	$("body").swipeDown(function(){
-		console.log("向下滑动");
+		params.a = "向下欢动";
+		console.log(params.a);
 	});
 	
 	$("body").swipeUp(function(){
-		console.log("向上滑动");
+		console.log(params.a);
 	});
 });
 
