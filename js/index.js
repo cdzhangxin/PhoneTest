@@ -34,7 +34,7 @@ function addLeft(){
 
 function cutLeft(){
 	setTimeout(function(){
-		if ($("#user-info").offset().left > -100) {
+		if ($("#user-info").offset().left >= -100) {
 			$("#user-info").css("left", --$("#user-info").offset().left);
 			cutLeft();
 		}
